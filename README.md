@@ -98,10 +98,16 @@ A commit in Git is a snapshot of your project's files at a particular point in t
 
 Commits helps in tracking changes and managing different versions of your project by:
 1. Recording what the project looked like at a specific moment.
-2. Mkaing multiple developers work on the same project, with Git tracking changes and facilitating merging.
+2. Making multiple developers work on the same project, with Git tracking changes and facilitating merging.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+In Git, branching is a feature that allows you to create a parallel version of your project to work on without affecting the main codebase.
 
+Branching is important in collaborative development for several reasons which include:
+(i)Group members can test new ideas or fix bugs in a separate environment, ensuring the main codebase remains stable.
+(ii) Developers can create individual branches for their work, collaborate on specific features, and later 
+merge their work into the main branch without having issues.
+(iii)Team members can work on different tasks or features simultaneously without interfering with each other’s progress.
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
